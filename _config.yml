@@ -27,10 +27,10 @@ author:
   name             : *name
   pronouns         : # example: "she/her"  
   bio              : # shown under your name in the sidebar; blank hides it
-  location         : "Stanford, CA"
+  location         : "Stanford, CA / London, UK"
   employer         : "Stanford University"
   uri              : # URL
-  email            : # optional, shown publicly in the sidebar
+  email            : thaining@stanford.edu # shown publicly in the sidebar
 
   # Academic websites
   academia         : # URL
