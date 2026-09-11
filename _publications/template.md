@@ -4,7 +4,7 @@ collection: publications
 category: articles
 permalink: /research/YYYY-MM-DD-short-slug
 excerpt: 'One or two sentences describing the work.'
-date: YYYY-MM-DD
+date: 2026-09-11
 venue: 'Journal, conference, or publisher'
 paperurl: 'https://example.com/link-to-paper.pdf'
 slidesurl: 'https://example.com/link-to-slides.pdf'
