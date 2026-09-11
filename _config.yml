@@ -23,7 +23,7 @@ baseurl                  : "" # leave empty
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "https://github.com/tessa-haining.png?size=460"
+  avatar           : "profile.jpg"
   name             : *name
   pronouns         : # example: "she/her"  
   bio              : "PhD student in Modern Thought and Literature"
