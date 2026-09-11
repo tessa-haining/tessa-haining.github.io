@@ -37,3 +37,23 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+
+/* Pink headings and top bar */
+:root {
+  --heading-color: #d34690;
+  --global-masthead-link-color: var(--heading-color);
+  --global-masthead-link-color-hover: #a93873;
+}
+html[data-theme="dark"] {
+  --heading-color: #fe9ac2;
+  --global-masthead-link-color: var(--heading-color);
+  --global-masthead-link-color-hover: #fcc6da;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-color);
+}
+.masthead__menu-item.selected a,
+.masthead__menu-item.selected a:hover {
+  color: var(--heading-color);
+  border-bottom-color: var(--heading-color);
+}
