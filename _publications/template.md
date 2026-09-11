@@ -19,7 +19,7 @@ collection: publications
 category: articles
 permalink: /research/2026-05-14-short-slug
 excerpt: 'One or two sentences describing the work.'
-date: 2026-05-14
+date: 2026-09-11
 venue: 'Journal, conference, or publisher'
 paperurl: 'https://example.com/link-to-paper.pdf'
 slidesurl: 'https://example.com/link-to-slides.pdf'

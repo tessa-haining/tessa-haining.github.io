@@ -1,6 +1,11 @@
 ---
 title: "Entry template"
 collection: teaching
+type: "Undergraduate course"
+permalink: /teaching/YYYY-term-short-slug
+venue: "Institution, Department"
+date: 2026-09-11
+location: "City, Country"
 published: false
 ---
 
