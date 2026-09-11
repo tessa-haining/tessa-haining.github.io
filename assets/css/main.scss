@@ -57,3 +57,12 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--heading-color);
   border-bottom-color: var(--heading-color);
 }
+
+/* Sidebar: with the bio removed, restore the space it used to contribute
+   below the name. .author__bio carried margin-bottom: 20px; .author__name
+   carries only 10px, so the links sat 10px too high. */
+@include breakpoint($large) {
+  .author__name {
+    margin-bottom: 20px;
+  }
+}
