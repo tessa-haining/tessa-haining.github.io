@@ -26,7 +26,7 @@ author:
   avatar           : "profile.jpg"
   name             : *name
   pronouns         : # example: "she/her"  
-  bio              : "PhD student in Modern Thought and Literature"
+  bio              : # shown under your name in the sidebar; blank hides it
   location         : "Stanford, CA"
   employer         : "Stanford University"
   uri              : # URL
