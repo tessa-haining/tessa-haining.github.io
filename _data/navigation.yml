@@ -1,12 +1,14 @@
 # The links across the top of your site, in order.
 # To hide a page from the menu, delete its two lines. To add one, copy a pair.
+#
+# Adding a section back later (e.g. a blog) takes two steps:
+#   1. remove "published: false" from the relevant file in _pages/
+#   2. add its title/url pair below
+# The blog index lives at /year-archive/ and lists anything in _posts/.
 
 main:
-  - title: "Publications"
-    url: /publications/
+  - title: "Research"
+    url: /research/
 
   - title: "Teaching"
     url: /teaching/
-
-  - title: "Blog"
-    url: /posts/
