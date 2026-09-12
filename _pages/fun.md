@@ -3,7 +3,6 @@ layout: archive
 title: "Fun"
 permalink: /fun/
 author_profile: true
-published: false
 ---
 
 As a former varsity rower, I've been privy to almost a decade of breathtaking sunrises and sunsets, from Boston to Oxford and now California, where I study. They really, truly, never get old.

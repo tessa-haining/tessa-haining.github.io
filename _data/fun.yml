@@ -1,20 +1,58 @@
 # Photographs shown on /fun/, in the order they appear.
 #
-# Each entry needs width and height so the page can hand the layout each
-# frame's aspect ratio — rows justify without cropping only if it knows
-# the true proportions. Everything else is optional.
+# width and height are required: the layout gives each figure a flex basis
+# and growth proportional to its aspect ratio, which is what lets rows
+# justify at a uniform height without cropping. Jekyll cannot read image
+# dimensions on GitHub Pages, so they live here.
 #
-#   - file:    filename inside images/fun/
-#     width:   pixel width of that file
-#     height:  pixel height of that file
-#     alt:     short description, for screen readers and if the image fails
-#     caption: optional; omit it and the photo simply shows none
-#
-# Example:
-#   - file: schuylkill-october.jpg
-#     width: 1600
-#     height: 2400
-#     alt: Orange sunrise over a river, low mist on the water
-#     caption: Boston, October
+# caption is optional — omit it and the photo shows none, but the space is
+# still reserved so rows stay level.
 
-photos: []
+photos:
+  - file: charles-river-sunset-bridge.jpg
+    width: 1024
+    height: 768
+    alt: Pink and violet sunset over the Charles River, a lit bridge crossing toward the skyline
+    caption: Mornings and evenings on the Charles River, Boston and Cambridge, MA.
+
+  - file: charles-river-dawn-basin.jpg
+    width: 768
+    height: 1024
+    alt: Dawn over the Charles River basin, pale pink cloud above a low skyline
+
+  - file: charles-river-sunrise-shells.jpg
+    width: 750
+    height: 940
+    alt: Orange mackerel sky at sunrise over the Charles, two eights rowing upstream
+
+  - file: charles-river-dawn-wake.jpg
+    width: 768
+    height: 1024
+    alt: Grey cloud with an orange band at the horizon, a boat's wake fanning across the water
+
+  - file: oxford-broad-street.jpg
+    width: 769
+    height: 1024
+    alt: Wispy orange cloud at sunset above a columned classical facade on Broad Street, Oxford
+    caption: Broad Street, Oxford, U.K., and the Oxford University boathouse in Wallingford.
+
+  - file: oxford-boathouse-wallingford.jpg
+    width: 768
+    height: 1024
+    alt: Blue sky streaked with pink over still water at the boathouse, oars stacked at the landing
+
+  - file: san-francisco-sunrise.jpg
+    width: 768
+    height: 1024
+    alt: Pink and blue sunrise over the San Francisco skyline and the Ferry Building clock tower
+    caption: Sunrise in San Francisco, and clouds breaking over Windy Hill in the South Bay.
+
+  - file: windy-hill-clouds.jpg
+    width: 1024
+    height: 768
+    alt: Cloud breaking over green ridges at Windy Hill, a road curving down through the hills
+
+  - file: windy-hill-trail.jpg
+    width: 768
+    height: 1024
+    alt: Blue sky above a hazy bay, a dirt path curving across the green hilltop at Windy Hill

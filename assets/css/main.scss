@@ -81,8 +81,13 @@ h1, h2, h3, h4, h5, h6 {
   row-gap: 16px;
   margin-top: 2em;
 
-  figure { margin: 0; flex-grow: calc(var(--ar) * 100); flex-basis: calc(var(--ar) * 300px); }
-  img    { display: block; width: 100%; height: 300px; object-fit: cover; }
+  figure { margin: 0; flex-grow: calc(var(--ar) * 100); flex-basis: calc(var(--ar) * 210px); }
+  /* height follows from the width and the frame's own ratio. Because each
+     figure grows in proportion to its ratio, every image in a row scales by
+     the same factor and lands on the same height by itself — so rows justify
+     with nothing cropped. A fixed height plus object-fit would cut the
+     frames by exactly the width the row growth added. */
+  img    { display: block; width: 100%; height: auto; aspect-ratio: var(--ar); }
 
   figcaption {
     font-size: 0.78em;
@@ -94,11 +99,10 @@ h1, h2, h3, h4, h5, h6 {
 
   &::after { content: ""; flex-grow: 1e6; }
 
-  /* A 300px row would put barely one portrait across a phone. */
+  /* A 210px row leaves room for barely one portrait on a phone. */
   @media screen and (max-width: 640px) {
     column-gap: 14px;
     row-gap: 12px;
-    figure { flex-basis: calc(var(--ar) * 210px); }
-    img    { height: 210px; }
+    figure { flex-basis: calc(var(--ar) * 150px); }
   }
 }
