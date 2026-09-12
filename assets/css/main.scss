@@ -60,10 +60,16 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Sidebar: with the bio removed, restore the space it used to contribute
    below the name, and then some. .author__bio carried margin-bottom: 20px
-   and .author__name only 10px, but 20 still left the name sitting closer
-   to the location line than the rows below it sit to each other. */
-@include breakpoint($large) {
-  .author__name {
+   and .author__name only 10px, which left the name sitting closer to the
+   location line than the rows below it sit to each other.
+
+   Written nested inside the selector, which is how every rule in _sass/
+   uses this mixin. Earlier versions of this fix called breakpoint() at the
+   root of the file and had no visible effect. .sidebar .author__name also
+   outranks the theme's plain .author__name, so this wins on specificity
+   rather than relying on source order. */
+.sidebar .author__name {
+  @include breakpoint($large) {
     margin-bottom: 30px;
   }
 }
