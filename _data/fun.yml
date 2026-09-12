@@ -1,0 +1,20 @@
+# Photographs shown on /fun/, in the order they appear.
+#
+# Each entry needs width and height so the page can hand the layout each
+# frame's aspect ratio — rows justify without cropping only if it knows
+# the true proportions. Everything else is optional.
+#
+#   - file:    filename inside images/fun/
+#     width:   pixel width of that file
+#     height:  pixel height of that file
+#     alt:     short description, for screen readers and if the image fails
+#     caption: optional; omit it and the photo simply shows none
+#
+# Example:
+#   - file: schuylkill-october.jpg
+#     width: 1600
+#     height: 2400
+#     alt: Orange sunrise over a river, low mist on the water
+#     caption: Boston, October
+
+photos: []

@@ -66,3 +66,39 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 20px;
   }
 }
+
+/* Photo grid on /fun/ — justified rows.
+   flex-basis and flex-grow both scale with each frame's own aspect ratio
+   (--ar, set inline from the width/height in _data/fun.yml), so a row
+   resolves to one uniform height with nothing cropped. The ::after
+   absorbs the slack so a short final row doesn't stretch to fill.
+   Every figure reserves a caption slot whether or not it uses one, so a
+   single captioned photo can't make its row taller than the others. */
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 16px;
+  margin-top: 2em;
+
+  figure { margin: 0; flex-grow: calc(var(--ar) * 100); flex-basis: calc(var(--ar) * 300px); }
+  img    { display: block; width: 100%; height: 300px; object-fit: cover; }
+
+  figcaption {
+    font-size: 0.78em;
+    line-height: 1.4;
+    min-height: 1.4em;
+    padding-top: 8px;
+    opacity: 0.72;
+  }
+
+  &::after { content: ""; flex-grow: 1e6; }
+
+  /* A 300px row would put barely one portrait across a phone. */
+  @media screen and (max-width: 640px) {
+    column-gap: 14px;
+    row-gap: 12px;
+    figure { flex-basis: calc(var(--ar) * 210px); }
+    img    { height: 210px; }
+  }
+}

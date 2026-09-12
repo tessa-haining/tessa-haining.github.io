@@ -12,3 +12,8 @@ main:
 
   - title: "Teaching"
     url: /teaching/
+
+# Waiting on photos. Uncomment together with removing published: false
+# from _pages/fun.md, so the menu never links to an unbuilt page.
+#  - title: "Fun"
+#    url: /fun/
