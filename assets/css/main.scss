@@ -59,11 +59,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Sidebar: with the bio removed, restore the space it used to contribute
-   below the name. .author__bio carried margin-bottom: 20px; .author__name
-   carries only 10px, so the links sat 10px too high. */
+   below the name, and then some. .author__bio carried margin-bottom: 20px
+   and .author__name only 10px, but 20 still left the name sitting closer
+   to the location line than the rows below it sit to each other. */
 @include breakpoint($large) {
   .author__name {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 }
 
@@ -87,13 +88,20 @@ h1, h2, h3, h4, h5, h6 {
      the same factor and lands on the same height by itself — so rows justify
      with nothing cropped. A fixed height plus object-fit would cut the
      frames by exactly the width the row growth added. */
-  img    { display: block; width: 100%; height: auto; aspect-ratio: var(--ar); }
+  /* The theme puts margin-bottom: 1em on every figure img and 0.5em under
+     every figcaption. Together with the row gap that left ~24px above the
+     caption and ~22px below it, so it read as floating between two rows
+     rather than belonging to the photograph above. Both are zeroed here and
+     the spacing is set from figcaption's padding-top instead. */
+  img    { display: block; width: 100%; height: auto; aspect-ratio: var(--ar);
+           margin-bottom: 0; }
 
   figcaption {
     font-size: 0.78em;
     line-height: 1.4;
     min-height: 1.4em;
-    padding-top: 8px;
+    padding-top: 6px;    /* above the caption */
+    margin-bottom: 0;    /* below it, the 16px row-gap does the work */
     opacity: 0.72;
   }
 
