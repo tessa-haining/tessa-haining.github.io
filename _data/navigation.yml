@@ -10,8 +10,10 @@ main:
   - title: "Research"
     url: /research/
 
-  - title: "Teaching"
-    url: /teaching/
+# Hidden until there are entries to show. To bring it back: delete the
+# "published: false" line from _pages/teaching.html and uncomment these two.
+#  - title: "Teaching"
+#    url: /teaching/
 
   - title: "Fun"
     url: /fun/
