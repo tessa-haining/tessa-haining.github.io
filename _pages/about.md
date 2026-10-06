@@ -15,7 +15,7 @@ My research asks both literary scholars and computer scientists how we should un
 
 My work draws on the sub-fields of literary history, of the digital humanities, and of science and technology studies. In its social and political framing, my work is indebted to the thought and legacy of Hannah Arendt. 
 
-My most recent projects, spanning the literary and political sides of cultural AI research, are: in collaboration with [Nina Beguš](https://www.ninabegus.com/) and [Gašper Beguš](https://www.gasperbegus.com/), [two neural networks](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7155038) trained on James Joyce's *Finnegans Wake*, the text that reimagined global language technologies decades before LLMs; and an [ICML workshop paper](https://openreview.net/forum?id=uBTzTVTEBo) on agonistic approaches to AI design in the public sphere.
+My most recent projects, spanning the literary and political sides of cultural AI research, are: in collaboration with [Nina Beguš](https://www.ninabegus.com/) and [Gašper Beguš](https://www.gasperbegus.com/), [two neural networks](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7155038) trained on James Joyce's *Finnegans Wake*, the text that reimagined global language technologies decades before LLMs; and [ICML](https://openreview.net/forum?id=uBTzTVTEBo) and [NeurIPS](https://openreview.net/forum?id=OZgixdz2cG) workshop papers on agonistic approaches to AI design in the public sphere.
 
 Questions I'm interested in at the moment are:
 1. How should we contextualize LLMs within literary history? How do we know what we're reading when we read LLM-generated text, and how have people thought about this in earlier periods of technological innovation?
