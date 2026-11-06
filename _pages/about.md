@@ -13,7 +13,7 @@ My research asks both literary scholars and computer scientists how we should un
 - How should we interpret LLM-generated text – not for what it says about the model that produced it, or "me" (the user) that prompts it, but instead for what it says about *us*, the culture that creates it? 
 - How should we evaluate and build AI models to approach standards of plural and collective life, not just to meet benchmarks that collapse interpretive diversity?
 
-My work draws on the sub-fields of literary history, of the digital humanities, and of science and technology studies. In its social and political framing, my work is indebted to the thought and legacy of Hannah Arendt. 
+My work draws on the sub-fields of literary history, of the digital humanities, and of science and technology studies. In its social and political framing, my work is indebted to the thought and legacy of Hannah Arendt and Charles Taylor. 
 
 My most recent projects, spanning the literary and political sides of cultural AI research, are: in collaboration with [Nina Beguš](https://www.ninabegus.com/) and [Gašper Beguš](https://www.gasperbegus.com/), [two neural networks](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7155038) trained on James Joyce's *Finnegans Wake*, the text that reimagined global language technologies decades before LLMs; and [ICML](https://openreview.net/forum?id=uBTzTVTEBo) and [NeurIPS](https://openreview.net/forum?id=OZgixdz2cG) workshop papers on agonistic approaches to AI design in the public sphere.
 
